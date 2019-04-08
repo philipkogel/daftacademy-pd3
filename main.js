@@ -59,9 +59,9 @@ if (input === null) {
   const hrFunction = hour();
 
   let start = function() {
-    seconds.innerHTML = s;
-    minutes.innerHTML = m;
-    hours.innerHTML = h;
+    seconds.innerHTML = checkTime(s);
+    minutes.innerHTML = checkTime(m);
+    hours.innerHTML = checkTime(h);
     console.log(minFunction.next()); //to set function
     console.log(hrFunction.next()); //to set function
     console.log(secFunction.next()); //to set function
