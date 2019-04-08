@@ -1,0 +1,22 @@
+body {
+    background-color: #000;
+}
+
+.watch {
+    border: 2px solid #fff;
+    width: 700px;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.watch h1 {
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+}
